@@ -56,7 +56,7 @@ header .head-text{
     box-shadow: -10px -4px 10px yellow, 2px 2px 10px white; 
     gap: 20px;
     border-style: ridge;
-    border-color: coral;
+    border-color: black;
     border-width: 20px;
 }
 main{
@@ -122,7 +122,7 @@ i{
  height: 20px;	
  overflow: hidden;
  position: relative;
- background: coral;
+ background: black;
  color: white;
  margin-top: -20px;
 }
