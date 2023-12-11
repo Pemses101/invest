@@ -204,7 +204,7 @@ channels.forEach(channel =>{
           
           if (channel.value == 'CBS news'){
           // The link of the live goes in the live source
-          liveSource = src="https://www.youtube.com/embed/Wg0GwGB2-AI?si=cVJrFTu9qHAbK4GU" 
+          liveSource = src="https://www.youtube.com/live/zrhXU2-eoXw?si=krjUuqqG9JTbg-ep" 
           mainImage.style.display = 'none'
           liveVideo.style.display = 'block'
           liveVideo.src = liveSource
