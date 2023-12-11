@@ -89,7 +89,7 @@ channels.forEach(channel =>{
           
           if (channel.value == 'Trust TV'){
           // The link of the live goes in the live source
-          liveSource = src="https://youtube.com/embed/ADn24ZJvMMQ" 
+          liveSource = src="https://youtube.com/embed/ADn24ZJvMMQ;controls=0" 
           mainImage.style.display = 'none'
           liveVideo.style.display = 'block'
           liveVideo.src = liveSource
