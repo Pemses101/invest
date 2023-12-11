@@ -40,7 +40,7 @@ channels.forEach(channel =>{
         
         if (channel.value == 'Plus TV Africa'){
         // The link of the live goes in the live source
-        liveSource = "https://www.youtube.com/embed/iWb4YDci85c?si=4d3Xq8s4dgjQT_1Q" 
+        liveSource = "https://www.youtube.com/embed/cOLuf8t1-bQ?si=1biYXcxwZ0fmVUDp" 
         mainImage.style.display = 'none'
         liveVideo.style.display = 'block'
         liveVideo.src = liveSource
