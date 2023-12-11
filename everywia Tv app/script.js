@@ -31,7 +31,7 @@ channels.forEach(channel =>{
         // This is for newscentral
         if (channel.value == 'Newscentral'){
             // put the link in the live source
-          liveSource = "https://www.youtube.com/embed/yUCI5SxQckw?si=-2TTMOK4AQvt0ipS;controls=0"
+          liveSource = "https://www.youtube.com/embed/yUCI5SxQckw?si=BIDzBfIbO2yQylWs"
           mainImage.style.display = 'none'
           liveVideo.style.display = 'block'
           liveVideo.src = liveSource
