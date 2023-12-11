@@ -191,6 +191,16 @@ channels.forEach(channel =>{
           liveVideo.src = liveSource
           window.scrollTo(0, 0);
           }
+
+        https://www.youtube.com/live/8WX6YL9JnLw?si=QyOnO8Bfy-ACEuMp
+        if (channel.value == 'GBnews'){
+          // The link of the live goes in the live source
+          liveSource = src="https://www.youtube.com/embed/8WX6YL9JnLw?si=QyOnO8Bfy-ACEuMp" 
+          mainImage.style.display = 'none'
+          liveVideo.style.display = 'block'
+          liveVideo.src = liveSource
+          window.scrollTo(0, 0);
+          }
           
           if (channel.value == 'CBS news'){
           // The link of the live goes in the live source
